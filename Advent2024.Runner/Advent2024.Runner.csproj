@@ -46,6 +46,8 @@
     <Compile Include="ArrayExtensions.cs" />
     <Compile Include="DaySelector.cs" />
     <Compile Include="Days\Day1.cs" />
+    <Compile Include="Days\Day2.cs" />
+    <Compile Include="Days\Day3.cs" />
     <Compile Include="FileSystem.cs" />
     <Compile Include="IAdventProblem.cs" />
     <Compile Include="Program.cs" />
@@ -60,6 +62,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\day1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\day2-example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\day2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\day3-example2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\day3-example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\day3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -89,6 +89,23 @@ namespace Advent2024.Runner
         }
 
         /// <summary>
+        /// Returns all the lines from csvFilePath concatenated together into a single string with no separators. 
+        /// </summary>
+        /// <param name="csvFilePath"></param>
+        /// <returns></returns>
+        public static string ReadCombined(this string csvFilePath)
+        {
+            var sb = new StringBuilder();
+
+            foreach (var line in csvFilePath.Read())
+            {
+                sb.Append(line);
+            }
+
+            return sb.ToString();
+        }
+
+        /// <summary>
         /// Reads and returns each line from csvFilePath, as-is. 
         /// </summary>
         /// <param name="csvFilePath"></param>
